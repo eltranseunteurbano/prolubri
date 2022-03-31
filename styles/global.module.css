@@ -1,0 +1,32 @@
+.title {
+  color: var(--color-rackley);
+  text-align: center;
+  margin-block-end: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.subtitle {
+  color: var(--color-black);
+  font-size: 1.7rem;
+  font-weight: 800;
+  opacity: 0.9;
+  line-height: 1.35;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 1.1rem
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .title {
+    margin: 0;
+    font-size: 1.1rem
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+}

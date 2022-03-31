@@ -1,0 +1,46 @@
+.dialog {
+  inline-size: 100vw;
+  block-size: 100vh;
+  position: fixed;
+  inset-block-start: 0;
+  background-color: var(--color-ghost-white);
+  z-index: 100;
+
+  padding: 2rem;
+  box-sizing: border-box;
+
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.nav-menu > .nav-item {
+  display: block;
+  font-weight: 800;
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--color-black);
+  block-size: auto;
+}
+
+.nav-menu > .nav-item:hover {
+  color: var(--color-rackley);
+}
+
+.open {
+  display: flex;
+}

@@ -1,0 +1,9 @@
+@import './Menu.module.css';
+@import 'NavBar.module.css';
+@import './Hero.module.css';
+@import './About.module.css';
+@import './Valance.module.css';
+@import 'Products.module.css';
+@import 'ProductItem.module.css';
+@import './Contact.module.css';
+@import './Footer.module.css';

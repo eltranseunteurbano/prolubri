@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" href="./img/favicon.svg">
+		<script src="./scripts/map.js" async></script>
+		<title>Prolubri</title>
+	  <link rel="stylesheet" href="./styles/index.css"></link>
+  </head>
+	<body>
+		<header class="header-navbar">
+      <div class="container-navbar">
+        <img class="logo" src="./img/logo.svg" alt="Logo Prolubri" />
+        <nav class="nav-navbar">
+          <a class="nav-item" href="#">Inicio</a>
+          <a class="nav-item" href="#about">Quiénes somos</a>
+          <a class="nav-item" href="#products">Productos</a>
+          <a class="nav-item" href="#contact">Contacto</a>
+        </nav>
+        <button type="button" class="menu-btn">
+          <img src="./img/icons/menu.svg" alt="Menu" />
+        </button>
+      </div>
+    </header>
+
+    <aside class="dialog" id="menu-dialog">
+      <header class="header-menu">
+        <img src="./img/favicon.svg" alt="Prolubri" width="36" height="36" />
+        <button class="close-btn">
+          <img src="./img/icons/close.svg" alt="Close Icon" width="24" height="24"/>
+        </button>
+      </header>
+      <nav class="nav-menu">
+          <a class="nav-item" href="#">Inicio</a>
+          <a class="nav-item" href="#about">Quiénes somos</a>
+          <a class="nav-item" href="#products">Productos</a>
+          <a class="nav-item" href="#contact">Contacto</a>
+        </nav>
+      <footer>
+        <img src="./img/logo-text.svg" alt="Prolubri" height="12" />
+      </footer>
+    </aside>
+
+		<main>
+			<section class="section" id="#">
+        <article class="hero-box">
+          <div></div>
+          <h1 class="hero-title">Desarrollo e innovación para el sector industrial.</h1>
+          <a href="#about" class="hero-icon bounce">
+            <img src="./img/icons/scroll_down.svg" alt="Scroll down">
+          </a>
+        </article>
+      </section>
+			<section id="about" class="about">
+        <h2 class="title">Quiénes somos</h2>
+        <h3 class="subtitle about-subtitle">Prolubri S.A. es una empresa que cuenta con más de 8 años de experiencia en el desarrollo de productos químicos para diferentes sectores como el agropecuario, farmacéutico y de petróleo.</h3>
+      </section>
+			<section class="square-box">
+        <div class="square">
+          <div class="square-item"></div>
+        </div>
+        <div class="square-image">
+          <img src="./img/img/lab.webp" alt="Lab">
+        </div>
+      </section>
+			<section id="products" class="products">
+        <h2 class="title">Nuestros productos</h2>
+        <h3 class="subtitle products-subtitle">Tecnología aplicada a la ingeniería química</h3>
+        <article class="products-box">
+          <div class="card">
+            <img src="./img/img/productos_quimicos.webp" alt="Productos químicos" width="300" height="300" class="card-image">
+            <h1 class="card-title">Productos químicos</h1>
+            <p class="card-text">Comercializamos productos químicos para las operaciones de perforación workover y completamiento. Nuestro portafolio de productos cuenta con: salmueras orgánicas e inorgánicas, surfactantes para fluidos de control, bactericidas, inhibidores de corrosión, viscosificantes y antiespumantes.</p>
+          </div>
+          <div class="card">
+            <img src="./img/img/desarrollo_tecnologia.webp" alt="Desarrollo de tecnología" width="300" height="300" class="card-image">
+            <h1 class="card-title">Desarrollo de tecnología</h1>
+            <p class="card-text">Trabajamos en la aplicación de tecnologías para mejorar la producción de crudo pesado y extra pesado. Contamos con un laboratorio de investigación y soporte, enfocado en el diseño de fluidos de control y el desarrollo de aditivos para el transporte de crudo.</p>
+          </div>
+        </article>
+      </section>
+			<section id="contact" class="contact">
+        <div id="map" class="map"></div>
+        <div class="contact-content">
+          <div class="legend">
+            <h1 class="legend-title">Headquaters Guatemala</h1>
+            <p>6 Avenida 0 - 60</p>
+            <p>Centro Comercial Zona 4 </p>
+            <p>Torre Profesional 2, Oficina 301</p>
+            <p>Ciudad de Guatemala</p>
+            <a href="tel:+50234567890" class="legend-phone ">
+              <span><img src="./img/icons/phone.svg" alt="Phone icon"></span>
+              <span>+502 3456 7890</span>
+            </a>
+            <a href="mailto:comercial@prolubri.com" class="legend-email ">
+              <span><img src="./img/icons/mail.svg" alt="Mail icon"></span>
+              <span>comercial@prolubri.com</span>
+            </a>
+          </div>
+        </div>
+      </section>
+		</main>
+		<footer class="footer">
+      <main class="content">
+        <div class="branding">
+          <img class="logo" src="./img/logo.svg" alt="Prolubri" width="150">
+          <small class="rights">© 2022 Prolubri. Todos los derechos reservados.</small>
+        </div>
+        <nav class="nav">
+          <a href="#" class="nav-item">Términos & condiciones</a>
+          <a href="#" class="nav-item">Política de privacidad</a>
+        </nav>
+      </main>
+    </footer>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBV-LxDxyOKdYlSDHY-yOzP_oW3r6caeoY&#38;callback=initMap&#38;v=weekly" async></script>
+  <script async src="./scripts/ResponsiveMenu.js"> </script>
+	</body>
+</html>

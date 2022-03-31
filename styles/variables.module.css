@@ -1,0 +1,16 @@
+:root {
+  --color-white: rgba(255, 255, 255);
+  --color-ghost-white: #f5fcff;
+  --color-black: rgb(4, 7, 9);
+  --color-white-transparent: rgba(255, 255, 255, 0.3);
+  --color-trolley-grey: rgb(124, 128, 136);
+  --color-dark-midnight-blue: #00416a;
+  --color-rackley: rgb(102, 141, 166);
+
+
+  --breakpoint-sm: 335px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1366px;
+
+}

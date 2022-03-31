@@ -1,0 +1,27 @@
+.products {
+  padding: 1.5rem;
+  padding-block-start: 3rem;
+  padding-block-start: 5rem;
+  box-sizing: border-box;
+  max-inline-size: 1024px;
+  inline-size: 100%;
+  margin: auto;
+}
+.products-subtitle {
+  text-align: center;
+}
+.products-box {
+  margin-block-start: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+@media (min-width: 1024px) {
+  .products {
+    padding: 2rem;
+    padding-block-start: 6rem;
+  }
+  .products-box {
+    flex-direction: row;
+  }
+}
